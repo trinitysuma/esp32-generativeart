@@ -19,7 +19,7 @@ void setup() {
     tft.setTextSize(1); 
     tft.setTextColor(TFT_GREEN, TFT_BLACK); // green font for fandom album
     tft.setFreeFont(font);
-    randomSeed(analogRead(A0));  // use floating analog pin noise
+    randomSeed(23);  // fixed seed
 }
 
 void drawCentered(const char* text, int y) {
@@ -136,3 +136,4 @@ void loop() {
     member_cycle();
     friends(); 
 }
+
