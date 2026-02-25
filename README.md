@@ -23,5 +23,5 @@ enum ScrollDir {
 
 The function ```scrollLinesOnce``` chooses the scroll direction with a random seed defined by ```randomSeed(23)```.
 
-Read more about the piece here: 
+Read more about the piece here: https://sites.google.com/view/trinitysuma/portfolio/creative-embedded-systems#h.6bds8nfiyvbb
 
